@@ -1,0 +1,27 @@
+{
+  "name": "vendor-twitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_NO_WARNINGS=1 node \"build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.775.0",
+    "@aws-sdk/client-dynamodb": "^3.751.0",
+    "aws-sdk": "^2.1692.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "needle": "^3.3.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "@types/express": "^5.0.1",
+    "@types/needle": "^3.3.0",
+    "@types/node": "^22.13.13",
+    "typescript": "^5.8.2"
+  }
+}
